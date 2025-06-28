@@ -16,7 +16,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 <!DOCTYPE html>
 <html>
-<head><title>New Post</title></head>
+<head><title>New Post</title>
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
 <h2>Create Post</h2>
 <form method="post">

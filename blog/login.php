@@ -19,7 +19,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 <!DOCTYPE html>
 <html>
-<head><title>Login</title></head>
+<head><title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
 <h2>Login</h2>
 <form method="post">
