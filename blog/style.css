@@ -44,3 +44,38 @@ a {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+
+/* New additions for file uploads ONLY */
+.file-upload {
+    margin: 15px 0;
+}
+
+.file-upload input[type="file"] {
+    width: auto;
+    padding: 5px;
+    border: 1px dashed #999;
+}
+
+.file-preview {
+    margin-top: 10px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 4px;
+}
+
+.file-preview img {
+    max-width: 300px;
+    max-height: 200px;
+    display: block;
+    margin-top: 10px;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
